@@ -8,13 +8,17 @@ It is required to have Node.js and npm installed to run this project.
 
 ## Installation
 
-Run `npm install` (or `npm i` for the short version) to install the dev dependencies.
+Run `npm install` (or `npm i` for the short version) to install the dev dependencies;
 
-Then Install Robot Framework in the Project Folder
+Then Install Robot Framework in the Project Folder;
+
+Install Robot Framework robotframework-browser (rfbrowser init).
 
 ## Tests
 
-You can run the tests simulating a desktop or mobile viewport.
+```
+robot -d ./logs .
+```
 
 ## Support this project
 
